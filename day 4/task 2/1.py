@@ -1,0 +1,5 @@
+file = open("data.txt","w")
+file.write("Name : Nahla\n")
+file.write("Age : 23\n")
+file.write("Course : AI/ML")
+file.close()

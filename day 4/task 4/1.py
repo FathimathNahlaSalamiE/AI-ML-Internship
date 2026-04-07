@@ -1,0 +1,11 @@
+file = open("data.txt","w")
+file.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n")
+file.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
+file.close()
+
+file = open("data.txt","r")
+text = file.read()
+words = text.split()
+longest = max(words, key = len)
+print(longest)
+file.close()
