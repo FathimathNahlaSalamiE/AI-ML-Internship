@@ -1,0 +1,3 @@
+john,80
+sara,90
+alex,70
