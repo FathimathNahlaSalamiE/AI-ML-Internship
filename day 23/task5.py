@@ -6,4 +6,4 @@ arr = np.array([
 ])
 print(arr + 100)
 print(arr * 100)
-print((arr - arr.min()) / (arr.max() - arr.min()))
+print((arr - arr.min()) / (arr.max() - arr.min())) 
