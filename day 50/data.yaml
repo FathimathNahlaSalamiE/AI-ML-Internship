@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['helmet']
+
+roboflow:
+  workspace: fathimaths-workspace-gmsac
+  project: helmet-zh5n1-7beaq
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fathimaths-workspace-gmsac/helmet-zh5n1-7beaq/dataset/1
